@@ -50,5 +50,16 @@ module.exports = {
   },
   etherscan: {
     apiKey: "6VTDZ6FHTTZ9VI4V8GVXEWUQVNHXGNXH87",
+    customChains: [
+      {
+        network: "sphinx",
+        chainId: 8081,
+        urls: {
+          apiURL: "",
+          browserURL: "https://explorer-dapps.shardeum.org"
+        }
+      }
+    ]
+  
   }
 };
