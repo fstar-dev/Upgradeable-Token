@@ -23,8 +23,8 @@ module.exports = {
   networks: {
     hardhat: {},
     sphinx: {
-      url: "https://sphinx.shardeum.org/",
-      chainId: 8082,
+      url: "https://dapps.shardeum.org",
+      chainId: 8081,
       accounts: [privateKeys],
     },
   },
