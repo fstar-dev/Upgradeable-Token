@@ -55,7 +55,7 @@ module.exports = {
         network: "sphinx",
         chainId: 8081,
         urls: {
-          apiURL: "",
+          apiURL: "https://explorer-dapps.shardeum.org/api",
           browserURL: "https://explorer-dapps.shardeum.org"
         }
       }
