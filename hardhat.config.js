@@ -32,10 +32,14 @@ module.exports = {
   },
   solidity: {
     //configure solidity version for compilation
-    version: "0.8.7",
+    version: "0.8.4",
     settings: {
       optimizer: {
         enabled: true,
+        runs: 9999,
+      },
+      metadata: {
+        bytecodeHash: "none",
       },
     },
   },
